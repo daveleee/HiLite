@@ -1,0 +1,69 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #333;
+}
+
+.label-size label {
+	font-size: 10px;
+	margin-left: 20px;
+	color: #777777;
+}
+
+#header {
+	width:100%;
+	background:#000000;
+	height:70px;
+	margin: 0 auto;
+}
+
+#header > h2 {
+	text-align:center;
+	color: #ffffff;
+}
+
+.explain {margin-left:10px;}
+.explain > h3 {
+	color:#ffffff;
+}
+.explain > label {
+	color:#ffffff;
+}
+
+.container {
+	background-color:#ffffff;
+	padding:10px;
+	margin: 10px;	
+}
+
+.label {
+	margin:5px;
+}
+
+.label_form_a {
+	margin:10px;
+	text-align:center;
+}
+
+.label_form_b {
+	margin:10px;
+	text-align:center;
+}
+
+
+
+@media screen and(max-width: 639px) {
+	#header {height:50px;}
+}
+
+@media screen and (min-width:640px) and (max-width:1023px) {
+	#header {height:60px;}
+}
+
+@media screen and (min-width: 1024px) {
+	#header {height:70px;}
+}
+
+
+
+
